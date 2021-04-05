@@ -7,7 +7,6 @@ const doneTasksList = document.getElementById("done-tasks__list");
 // add new task handler
 addButton.addEventListener("click", addTask);
 
-
 // add 'done' to new element of list
 for (let i = 0; i < activeTasksList.children.length; i++) {
   bindHandlers(activeTasksList.children[i], makeDone);
@@ -17,7 +16,6 @@ for (let i = 0; i < activeTasksList.children.length; i++) {
 for (let i = 0; i < doneTasksList.children.length; i++) {
   bindHandlers(doneTasksList.children[i], makeActive);
 }
-
 
 //make task completed
 function makeDone() {
@@ -128,4 +126,5 @@ function createNewTask(task) {
   listItem.appendChild(deleteButton);
 
   return listItem;
+  
 }
