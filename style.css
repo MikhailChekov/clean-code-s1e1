@@ -8,7 +8,7 @@ li {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -18,38 +18,43 @@ button{
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .app-description {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .app-description .app-description__img {
   width: 100%;
 }
+
 .app-description .app-description__link {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .app-description { 
+@media (max-width: 768px) {
+  .app-description {
     text-align: center;
   }
 }
+
 .app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .new-task {
   display: flex;
 }
-
 
 .btn {
   background: none;
@@ -60,8 +65,9 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 .title,
@@ -75,12 +81,12 @@ button{
   text-transform: uppercase;
 }
 
-
 /* New Task */
 .new-task__label {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task__input {
   width: 318px;
 }
@@ -104,12 +110,13 @@ button{
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task__input:focus {
   color: #333;
 }
@@ -117,20 +124,24 @@ button{
 .task .task__checkbox {
   margin: 0 10px;
 }
+
 .task .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task .task__input {
   width: 226px;
 }
+
 .task__delete-btn .task__btn-img_d {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task__delete-btn .task__btn-img_d:hover {
   transform: rotateZ(0);
 }
@@ -142,8 +153,6 @@ button{
 }
 
 /* Edit Task */
-
-
 .task_edit .task__input {
   display: inline-block;
   width: 224px;
