@@ -129,6 +129,3 @@ function createNewTask(task) {
 
   return listItem;
 }
-
-
-
