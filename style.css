@@ -1,15 +1,15 @@
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li {
-  list-style:none;
+  list-style: none;
 }
 
 input,
 button{
-  outline:none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -145,11 +145,11 @@ button{
 
 
 .task_edit .task__input {
-  display:inline-block;
-  width:224px;
-  display:none;
+  display: inline-block;
+  width: 224px;
+  display: none;
 }
 
 .task_edit .task__label {
-  display:none;
+  display: none;
 }
