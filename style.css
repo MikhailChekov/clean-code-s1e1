@@ -24,7 +24,7 @@ button{
   display: block;
   text-align: right;
 }
-.app-description img {
+.app-description .app-description__img {
   width: 100%;
 }
 .app-description .app-description__link {
