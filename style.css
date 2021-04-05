@@ -44,7 +44,7 @@ button{
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-task {
   display: flex;
@@ -124,7 +124,7 @@ button{
   width: 226px;
 }
 .task .task__input {
-  width: 226px
+  width: 226px;
 }
 .task__delete-btn .task__btn-img_d {
   height: 2em;
@@ -137,7 +137,7 @@ button{
 
 /* Completed */
 .done-tasks .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
